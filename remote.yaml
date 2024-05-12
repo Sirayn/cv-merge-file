@@ -1,0 +1,31 @@
+# Merge Template for clash verge
+# The `Merge` format used to enhance profile
+
+prepend-rules:
+    # my domain
+    - DOMAIN-SUFFIX,sirayn.com,🎯 全球直连
+    - DOMAIN-SUFFIX,esile.me,🎯 全球直连
+
+    # others
+    - DOMAIN-SUFFIX,maizemeeting.org,🎯 全球直连
+    - DOMAIN-SUFFIX,cuidc.com,🎯 全球直连
+    - DOMAIN-SUFFIX,hostloc.com,🎯 全球直连
+    
+    # copilot
+    - DOMAIN-SUFFIX,edgeservices.bing.com,🔰 节点选择
+    - DOMAIN-SUFFIX,srtb.msn.com,🔰 节点选择
+    - DOMAIN-SUFFIX,sydney.bing.com,🔰 节点选择
+
+    # my servers
+    - IP-CIDR,38.6.166.160/32,🎯 全球直连
+    - IP-CIDR,158.101.147.41/32,🎯 全球直连
+    - IP-CIDR,38.58.181.170/32,🎯 全球直连
+prepend-proxies:
+
+prepend-proxy-groups:
+
+append-rules:
+
+append-proxies:
+
+append-proxy-groups:
